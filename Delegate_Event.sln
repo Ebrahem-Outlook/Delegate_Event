@@ -35,13 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate_15", "Delegate_15\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_01", "Event_01\Event_01.csproj", "{1FBCCDAD-2436-4BD3-B74D-34D14E62E7A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_02", "Event_02\Event_02.csproj", "{5E89E4CC-C6F2-4B0A-BE27-E09D7F552CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_02", "Event_02\Event_02.csproj", "{5E89E4CC-C6F2-4B0A-BE27-E09D7F552CFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_03", "Event_03\Event_03.csproj", "{B287EF4F-9DC8-4094-9AC2-372963150F4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_03", "Event_03\Event_03.csproj", "{B287EF4F-9DC8-4094-9AC2-372963150F4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_04", "Event_04\Event_04.csproj", "{30128B3D-278C-4571-AE63-6360E066B06D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_04", "Event_04\Event_04.csproj", "{30128B3D-278C-4571-AE63-6360E066B06D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_05", "Event_05\Event_05.csproj", "{4F4D3678-F4DB-4983-9FFD-E3C5A61BE069}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_05", "Event_05\Event_05.csproj", "{4F4D3678-F4DB-4983-9FFD-E3C5A61BE069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_06", "Event_06\Event_06.csproj", "{E556891A-D261-400D-B773-1CB36A6028AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{4F4D3678-F4DB-4983-9FFD-E3C5A61BE069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F4D3678-F4DB-4983-9FFD-E3C5A61BE069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F4D3678-F4DB-4983-9FFD-E3C5A61BE069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E556891A-D261-400D-B773-1CB36A6028AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E556891A-D261-400D-B773-1CB36A6028AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E556891A-D261-400D-B773-1CB36A6028AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E556891A-D261-400D-B773-1CB36A6028AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

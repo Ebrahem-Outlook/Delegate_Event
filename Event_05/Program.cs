@@ -55,7 +55,7 @@ namespace Delegate_Event
             Console.WriteLine($"Name::{Name} | OldPrice::{oldPrice} | newPrice::{newPrice} | {result}");
         }
     }
-
+                                            
     public class Stock
     {
         public string Name { get; }   
