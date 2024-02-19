@@ -7,7 +7,7 @@ namespace Delegate_Event
         public static void Main(String[] args)
         {
             Stock stock = new Stock("Amazoun");
-            stock.EventPrice += Stock1_EventPrice;
+            //stock.EventPrice += Stock1_EventPrice;
             stock.Price = 100;
             stock.ChangeStockPrice(-0.05M);
 
@@ -25,29 +25,34 @@ namespace Delegate_Event
             Stock stock3 = new Stock("Meta");
             stock3.EventPrice += Stock1_EventPrice;
             stock3.Price = 250;
-            stock3.ChangeStockPrice(0.15M);
+            stock3.ChangeStockPrice(-0.15M);
 
+            Console.ReadKey();
         }
 
 
         // subscribe Event
         private static void Stock1_EventPrice(string Name, decimal oldPrice, decimal newPrice)
         {
+            string result = "";
+
             if (newPrice > oldPrice)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"Name:: {Name} | OldPrice:: {oldPrice} | newPrice:: {newPrice} ");
+                result = "UP";
             }
             else if(newPrice < oldPrice)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Name:: {Name} | OldPrice:: {oldPrice} | newPrice:: {newPrice} ");
+                result = "Down";
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Name::  {Name}  | OldPrice:: {oldPrice} | newPrice:: {newPrice} ");
+                result = "Down";
             }
+
+            Console.WriteLine($"Name::{Name} | OldPrice::{oldPrice} | newPrice::{newPrice} | {result}");
         }
     }
 
